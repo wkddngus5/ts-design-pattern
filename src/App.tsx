@@ -1,8 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { templateMethodRun } from './templateMethod';
+import { factoryRun } from './factory';
 
 const App: React.FC = () => {
+  templateMethodRun();
+  
   return (
     <div className="App">
       <header className="App-header">
