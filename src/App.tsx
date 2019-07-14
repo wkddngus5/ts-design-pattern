@@ -5,7 +5,8 @@ import { templateMethodRun } from './templateMethod';
 import { factoryRun } from './factory';
 
 const App: React.FC = () => {
-  templateMethodRun();
+  // templateMethodRun();
+  factoryRun();
   
   return (
     <div className="App">
